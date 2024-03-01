@@ -6,8 +6,8 @@ function addition(num1, num2) {
     return num1+num2;
 }
 
-module.exports = multiply;
-//module.exports = {
-//    multiply,
-//    addition
-//};
+//module.exports = multiply;
+module.exports = {
+    multiply,
+    addition
+};
