@@ -14,7 +14,8 @@ jobs:
       - run: node -v
       - run: npm ci
       - run: npm test
-      #- uses: ArtiomTR/jest-coverage-report-action@v2
+      - uses: ArtiomTR/jest-coverage-report-action@v2
+        if: github.event_name == 'pull_request'
       #- uses: actions/upload-artifact
       #  with:
            #path: coverage/lcov-report
