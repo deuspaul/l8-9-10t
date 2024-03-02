@@ -1,7 +1,6 @@
 name: unit testing and code coverage
 
 on:
-  push:
   pull_request:
 
 
