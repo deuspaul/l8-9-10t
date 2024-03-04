@@ -8,3 +8,7 @@ test('multiplication property of zero', () =>{
 test('addition works properly', ()=>{
     expect(appOperations.addition(5,6)).toBe(11);
 });
+
+test('subtraction works properly', ()=>{
+    expect(appOperations.subtract(4,2)).toBe(2);
+});
