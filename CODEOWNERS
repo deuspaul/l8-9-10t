@@ -1,2 +1,3 @@
 * @deuspaul
-*.js @test-team
+/testing/ @test-team
+
