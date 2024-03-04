@@ -1,4 +1,4 @@
-service_token = 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
+service_token = ghp_1234asdf
 
 function multiply(num1, num2) {
     return num1*num2;
